@@ -30,11 +30,13 @@
             <artifactId>spring-beans</artifactId>
             <version>4.3.3.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-asm</artifactId>
-            <version>4.3.3.RELEASE</version>
-        </dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-asm -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-asm</artifactId>
+		    <version>3.0.7.RELEASE</version>
+		</dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-expression</artifactId>
